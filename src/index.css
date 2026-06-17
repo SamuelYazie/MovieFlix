@@ -140,6 +140,11 @@
       @apply text-gray-100 font-medium text-base;
     }
   }
+
+  .movie-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(94, 94, 94, 0.5);
+  }
 }
 
 @utility text-gradient {
